@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>COMP125 Assignmnet 3</title>
+	<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+	<h1>Photo Viewer</h1>
+	<div class="container">
+			<section id="dg-container" class="dg-container">
+			<div class="dg-wrapper">
+				<a onclick="openWindow('./assets/images/1.jpg')"><img src="./assets/images/1.jpg" width="500" alt="pic1"></a>
+				<a onclick="openWindow('./assets/images/2.jpg')"><img src="./assets/images/2.jpg" width="500" alt="pic2"> </a>
+				<a onclick="openWindow('./assets/images/3.jpg')"><img src="./assets/images/3.jpg" width="500" alt="pic3"> </a>
+				<a onclick="openWindow('./assets/images/4.jpg')"><img src="./assets/images/4.jpg" width="500" alt="pic4"> </a>
+				<a onclick="openWindow('./assets/images/5.jpg')"><img src="./assets/images/5.jpg" width="500" alt="pic5"> </a>
+				<a onclick="openWindow('./assets/images/6.jpg')"><img src="./assets/images/6.jpg" width="500" alt="pic6"> </a>
+				<a onclick="openWindow('./assets/images/7.jpg')"><img src="./assets/images/7.jpg" width="500" alt="pic7"> </a>
+				<a onclick="openWindow('./assets/images/8.jpg')"><img src="./assets/images/8.jpg" width="500" alt="pic8"> </a>
+			</div>
+			<nav>	
+				<span class="dg-prev">&lt;</span>
+				<span class="dg-next">&gt;</span>
+			</nav>
+
+			
+		</section>
+		<div id="fav-images" class="fav-images">
+			<h3>
+				Favourite
+			</h3>			
+			<!-- Favourite Images area -->
+		</div>
+	</div>
+	<footer>
+		<p>COMP125 - Assignment 3 | Photos are downloaded from Unsplash resource. All right reserved.</p>
+	</footer>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.gallery.js"></script>
+	<script type="text/javascript" src="./assets/js/index.js"></script>
+</body>
+</html>
